@@ -1,18 +1,18 @@
 :root {
-  --bg: #0b1020;
-  --bg-soft: #101936;
-  --text: #edf2ff;
-  --muted: #b2bdd9;
-  --primary: #5b8cff;
-  --primary-2: #7aa2ff;
-  --card: #0f1732;
-  --border: #22315f;
+  --bg: #1a0709;
+  --bg-soft: #2a0d11;
+  --text: #fff1f2;
+  --muted: #f2b9bf;
+  --primary: #ef4444;
+  --primary-2: #dc2626;
+  --card: #2b0f14;
+  --border: #5a1d27;
 }
 * { box-sizing: border-box; }
 body {
   margin: 0;
   font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-  background: radial-gradient(1200px 500px at 50% -10%, #1a2b5f 0%, var(--bg) 55%);
+  background: radial-gradient(1200px 500px at 50% -10%, #5f1a1f 0%, var(--bg) 55%);
   color: var(--text);
 }
 .container { width: min(1120px, 92%); margin: 0 auto; }
